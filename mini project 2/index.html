@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recipi project apna dhaba</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            width: 100%;
+        }
+        #navList{
+            /* margin-left: 12px;
+            margin-right: 12px; */
+            padding: 15px;
+            list-style-type: none;
+            font-size: 2.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+        }
+        .container{
+            height: 100%;
+            width:100vw; 
+            overflow-x: none;
+            background-color: #A9C9FF;
+background-image: -webkit-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+background-image: -moz-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+background-image: -o-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+        }
+        .navcontainer{
+            width: 100%;
+            background-color: #04264f;
+;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        #navlogo{
+            font-size: 2.8rem;
+            color: azure;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            background-color: darkblue;
+        }
+        #navitems{
+            display: flex;
+            gap: 12.5px;
+        }
+        .maincontent{
+            background-color: #cac4c4;
+            /* height: 86vh; */
+            width: 65%;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: column;
+            /* column-gap: 50px; */
+        
+        }
+        .footer{
+            background-color: #825252;
+            color: azure;
+            text-align: center;
+            min-height: 45px;
+            width: 100%;
+        }
+        .footer p{
+            font-size: 2rem;
+        }
+        .item{
+            display: flex;
+            justify-content:space-around ;
+            align-items: center;
+        }
+        .rbox img{
+            height: 84%;
+            width: 78%;
+            margin-left:10% ;
+            margin-top: 2%;
+            border-radius:25px ;
+            transition: all 1s linear;
+            
+        }
+        .lbox{
+            display: flex;
+            flex-direction: column;
+
+        }
+        .heading{
+            /* font-size: 2.5rem; */
+            color: #04264f;
+            text-align: center;
+        }
+        .lbox h2{
+            font-size: 1.5rem;
+        }
+        .rbox h1{
+            text-align: center;
+            
+        }
+        .ingbox{
+            font-size: 1.25rem;
+        }
+
+        .rcspbox{
+            font-size: 1.25rem;
+        }
+        .rbox img:hover{
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <div class="navcontainer">
+            <nav>
+                <ul id="navList">
+                    <li><p id="navlogo">ANKITA SWEETS</p></li>
+                    <li>
+                        <div id="navitems">
+                        <a href="#">Home</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </div>  
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="maincontent">
+            <!-- item 1 -->
+            <section>
+                <div class="item">
+                    <div class="lbox">
+                        <!-- heading -->
+                        <h2 class="heading">Gulab Jamun</h2>
+                        <div id="IGDENT">
+                            <h2>Ingrediants</h2>
+                        <ul class="ingbox">
+                            <li>water</li>
+                            <li>Sugar</li>
+                            <li>Bread</li>
+                            <li>Oil</li>
+                        </ul>
+                        </div>
+                        <div id="RCSP">
+                            <h2>Recipe</h2>
+                        <ol class="rcspbox">
+                            <li>boil the water</li>
+                            <li>mixed the sugar</li>
+                            <li>hold it for 15 minutes</li>
+                            <li>make a bread role</li>
+                            <li>Breadrole fry in oil </li>
+                            <li>dip the role suger serup</li>
+                            <li>hold it for 48 minutes</li>
+                        </ol>
+                        </div>
+                    </div>
+                    <div class="rbox">
+                        <img src="Gulabj.jpg" alt="gulab jamun">
+                    <h1>Gulab Jamun</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="lbox">
+                        <!-- heading -->
+                        <h2 class="heading">Kaju Katli</h2>
+                        <div id="IGDENT">
+                            <h2>Ingrediants</h2>
+                        <ul class="ingbox">
+                            <li>ghee</li>
+                            <li>Sugar</li>
+                            <li>kaju</li>
+                            <li>khoya</li>
+                        </ul>
+                        </div>
+                        <div id="RCSP">
+                            <h2>Recipe</h2>
+                        <ol class="rcspbox">
+                            <li>boil the water</li>
+                            <li>mixed the sugar</li>
+                            <li>grind the kaju</li>
+                            <li>make a paste of kaju</li>
+                            <li>fry in ghee</li>
+                            <li>paste in a pot</li>
+                            <li>hold it for 90 minutes</li>
+                        </ol>
+                        </div>
+                    </div>
+                    <div class="rbox">
+                        <img src="Kajuk.jpg" alt="kajukatli">
+                        <h1>kajukatli</h1>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>copyright &copy;ANKITA SWEETS pvt limited All Rights Reserved</p>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
